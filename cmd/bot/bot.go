@@ -106,6 +106,8 @@ var BRYCE *SoundCollection = &SoundCollection{
 Prefix: "bryce",
 Commands: []string{
     "!bryce",
+    "!infungus",
+
 },
     
 Sounds: []*Sound{
@@ -115,6 +117,7 @@ Sounds: []*Sound{
     createSound("killyouself", 1000, 250),
     createSound("richard", 1000, 250),
     createSound("waterelement", 1000, 250),
+    createSound("sister", 1000, 250),
 },
 }
 
@@ -122,6 +125,7 @@ var TYSON *SoundCollection = &SoundCollection{
 Prefix:    "tyson",
 Commands: []string{
     "!tyson",
+    "!meed",
 },
 Sounds: []*Sound{
     createSound("erocktion", 1000, 250),
@@ -136,6 +140,7 @@ var AMY *SoundCollection = &SoundCollection{
 Prefix: "amy",
 Commands: []string{
     "!amy",
+    "!ameme",
 },
 Sounds: []*Sound{
     createSound("weirdsound1", 1000, 250),
@@ -152,6 +157,8 @@ var JUNNE *SoundCollection = &SoundCollection{
 Prefix: "junne",
 Commands: []string{
     "!junne",
+    "!purp",
+    "!jp",    
 },
 Sounds: []*Sound{
     createSound("succ", 1000, 250),
@@ -183,6 +190,7 @@ var IDUBBBZ *SoundCollection = &SoundCollection{
 Prefix: "idubbbz",
 Commands: []string{
     "!idubbbz",
+    "!idubz",
 },
 Sounds: []*Sound{
     createSound("chef", 1000, 250),
@@ -198,9 +206,11 @@ var LOCHIE *SoundCollection = &SoundCollection{
 Prefix: "lochie",
 Commands: []string{
     "!lochie",
+    "!leanlord",
 },
 Sounds: []*Sound{
     createSound("willy", 1000, 250),
+    createSound("america", 1000, 250),
 },
 }
 
@@ -208,6 +218,7 @@ var CHASE *SoundCollection = &SoundCollection{
 Prefix: "chase",
 Commands: []string{
     "!chase",
+    "!weevil",
 },
 Sounds: []*Sound{
     createSound("curry", 1000, 250),
@@ -229,6 +240,7 @@ var ALEX *SoundCollection = &SoundCollection{
 Prefix: "alex",
 Commands: []string{
     "!alex",
+    "!spacemilk",
 },
 Sounds: []*Sound{
     createSound("choppa", 1000, 250),
