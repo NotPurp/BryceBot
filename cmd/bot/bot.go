@@ -244,9 +244,9 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
     FRANK,
     IDUBBBZ,
     LOCHIE,
-    WEEVIL,
-    KEEMSTAR
-    ALEX
+    CHASE,
+    KEEMSTAR,
+    ALEX,
 }
 
 // Create a Sound struct
