@@ -214,6 +214,7 @@ Sounds: []*Sound{
     createSound("america", 1000, 250),
     createSound("ciggyman", 1000, 250),
     createSound("nightclub", 1000, 250),
+    createSound("thisisweed", 1000, 250),
 },
 }
 
