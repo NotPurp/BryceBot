@@ -1,7 +1,9 @@
 /*
- ************************* BRYCEBOT *************************
+ ************************ MAYMAY-BOT ************************
+ ************************ By zduford ************************
+ *********** http://github.com/zduford/maymay-bot ***********
  *********** Based on hammerandchisel's airhornbot **********
- ********************* MODIFIED BY PURP *********************
+ ************************** ENJOY ***************************
  */
 
 package main
@@ -44,7 +46,7 @@ var (
      OWNER string
      
      //Version
-     VERSION_RELEASE = "1.0.3"
+     VERSION_RELEASE = "0.0.3-b"
      
      //TIME Constant
      t0 = time.Now()
@@ -197,6 +199,7 @@ Sounds: []*Sound{
     createSound("prettygood", 1000, 250),
     createSound("smellslikecancer", 1000, 250),
     createSound("whatareyou", 1000, 250),
+    createSound("cripplingdepression", 1000, 250),
 },
 }
 
@@ -209,6 +212,7 @@ Commands: []string{
 Sounds: []*Sound{
     createSound("willy", 1000, 250),
     createSound("america", 1000, 250),
+    createSound("ciggyman", 1000, 250),
 },
 }
 
@@ -586,7 +590,9 @@ func handleBotControlMessages(s *discordgo.Session, m *discordgo.MessageCreate, 
 
 func generateCommandList() string{
     var commands string
-    commands = "`Check the #welcome page for commands.\n\n"
+    commands = "`Here are the comamnds:\n\n"
+    commands = commands + "!bryce\n!tyson\n!amy\n!junne\n!frank\n!idubbbz\n"
+    commands = commands + "Now go out there and make me proud you autists.`"
     return commands
 }
 
